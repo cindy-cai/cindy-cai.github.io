@@ -1,0 +1,159 @@
+#title {
+    text-align: center;
+    font-size: 25pt;
+    color: black;
+    position: relative;
+    z-index: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin-top: -5px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.headers {
+    text-align: center;
+    font-size: 18pt;
+    padding: 20px;
+}
+#aboutheader {
+    margin-left:200px;
+    text-align: left;
+    font-size: 18pt;
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
+}
+
+.paragraph {
+    margin-left: 500px;
+    margin-right:150px;
+    text-align: left;
+    font-size: 12pt;
+    padding: 15px;
+}
+
+.picofme {
+    margin-left: 200px;
+    padding: 0, 15px;
+    float: left;
+    padding-right: 30px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+.projects{
+    margin: none;
+    padding: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #008CBA;
+  }
+.container:hover .overlay{
+    opacity: 0.9;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/*imagegrid*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 30px 3px;
+  }
+  
+  .column img {
+    /* margin-top: 8px; */
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+/* image  grid*/
